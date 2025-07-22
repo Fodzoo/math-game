@@ -1,13 +1,13 @@
 import 'dart:io';
 import 'dart:math';
-// Math Game
+// Random Numbers Game
 void main() {
   Random random = Random();
   int correct = 0, wrong = 0, total = 0;
   String choice;
 
   while (true) {
-    int num1 = random.nextInt(20), num2 = random.nextInt(20), uesrSum;
+    int num1 = random.nextInt(21), num2 = random.nextInt(21), uesrSum;
     print('$num1 + $num2 = ........');
     uesrSum = int.parse(stdin.readLineSync()!);
 
