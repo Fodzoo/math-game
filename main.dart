@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'dart:math';
-
+// Math Game
 void main() {
   Random random = Random();
   int correct = 0, wrong = 0, total = 0;
